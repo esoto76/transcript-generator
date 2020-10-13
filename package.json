@@ -1,5 +1,5 @@
 {
-  "name": "transcript-generator",
+  "name": "@nhhsa/transcript-generator",
   "version": "3.0.0-beta.1",
   "private": true,
   "scripts": {
@@ -56,5 +56,23 @@
     "> 1%",
     "last 2 versions",
     "not dead"
-  ]
+  ],
+  "description": "## Project setup ``` npm install ```",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/esoto76/transcript-generator.git"
+  },
+  "keywords": [
+    "nhhsa-transcript-generator",
+    "transcript-generator",
+    "nhhsa-tg",
+    "tg"
+  ],
+  "author": "Eric Sotomayor <elpasocolorartist@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/esoto76/transcript-generator/issues"
+  },
+  "homepage": "https://github.com/esoto76/transcript-generator#readme"
 }
