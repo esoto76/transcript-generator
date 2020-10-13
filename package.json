@@ -3,6 +3,8 @@
   "version": "3.0.0-beta.1",
   "private": true,
   "scripts": {
+    "eslink": "npm link @es/changelogger",
+    "clog": "auto-changelog",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
@@ -15,10 +17,26 @@
     "@vue/cli-plugin-babel": "~4.5.7",
     "@vue/cli-plugin-eslint": "~4.5.7",
     "@vue/cli-service": "~4.5.7",
+    "auto-changelog": "^2.2.1",
     "babel-eslint": "^10.1.0",
     "eslint": "^7.11.0",
     "eslint-plugin-vue": "^7.0.1",
     "vue-template-compiler": "^2.6.12"
+  },
+  "auto-changelog": {
+    "backfillLimit": false,
+    "commitLimit": false,
+    "handlebarsSetup": "node_modules/@es/changelogger/templates/changelog-template.js",
+    "hideCredit": true,
+    "includeBranch": [
+      "master",
+      "merge"
+    ],
+    "package": true,
+    "releaseSummary": true,
+    "sortCommits": "date-desc",
+    "template": "node_modules/@es/changelogger/templates/changelog-template.hbs",
+    "unreleased": true
   },
   "eslintConfig": {
     "root": true,
