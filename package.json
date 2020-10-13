@@ -11,10 +11,13 @@
     "serve": "vue-cli-service serve --open",
     "build": "vue-cli-service build",
     "clog": "auto-changelog",
+    "electron:build": "vue-cli-service electron:build",
+    "electron:serve": "vue-cli-service electron:serve",
     "eslink": "npm link @es/changelogger",
-    "postinstall": "npm run eslink"
+    "postinstall": "npm run eslink && electron-builder install-app-deps",
+    "postuninstall": "electron-builder install-app-deps"
   },
-  "main": "index.js",
+  "main": "background.js",
   "dependencies": {
     "core-js": "^3.6.5",
     "vue": "^2.6.12",
@@ -24,15 +27,20 @@
     "vuex": "^3.5.1"
   },
   "devDependencies": {
+    "@types/electron-devtools-installer": "^2.2.0",
+    "@types/node": "^12.12.67",
     "@vue/cli-plugin-babel": "~4.5.7",
     "@vue/cli-plugin-router": "~4.5.7",
     "@vue/cli-plugin-typescript": "~4.5.7",
     "@vue/cli-plugin-vuex": "~4.5.7",
     "@vue/cli-service": "~4.5.7",
     "auto-changelog": "^2.2.1",
+    "electron": "^9.0.0",
+    "electron-devtools-installer": "^3.1.0",
     "node-sass": "^4.14.1",
     "sass-loader": "^10.0.3",
     "typescript": "~4.0.3",
+    "vue-cli-plugin-electron-builder": "~2.0.0-rc.4",
     "vue-template-compiler": "^2.6.12"
   },
   "_id": "@nhhsa/transcript-generator@3.0.0-beta.2",

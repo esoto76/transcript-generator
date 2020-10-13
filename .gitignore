@@ -24,3 +24,5 @@ yarn-error.log*
 *.sln
 *.sw?
 *.csv
+#Electron-builder output
+/dist_electron
