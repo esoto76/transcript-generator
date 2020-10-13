@@ -5,11 +5,24 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## v3.0.0-beta.3
+### October 13, 2020
+
+#### Features
+
+* feature: add electron ([`0d272d5`](https://github.com/esoto76/transcript-generator/commit/0d272d5496405bfa2381ddda26148ec1690ae585))
+
+#### Updates
+
+* update: packages ([`fc4e7f7`](https://github.com/esoto76/transcript-generator/commit/fc4e7f7f09c6e975e7b847cd6f11c3346b672221))
+* update: bumped version 3.0.0-beta.3 ([`7a1748e`](https://github.com/esoto76/transcript-generator/commit/7a1748e3dfe88cbb429f65505ae5de511293eab8))
+
 ## v3.0.0-beta.2
 ### October 13, 2020
 
 #### Updates
 
+* update: CHANGELOG ([`b6b137d`](https://github.com/esoto76/transcript-generator/commit/b6b137dd5eea0c9946a6c5abfba0db53ae77cc38))
 * update: .gitignore ([`ffa4b1e`](https://github.com/esoto76/transcript-generator/commit/ffa4b1e2382a09dc86e27741d116c6ed0809935a))
 * update: add --open to npm serve ([`6134dd8`](https://github.com/esoto76/transcript-generator/commit/6134dd81361a27d06fc609ddc0e724cb020e11e9))
 * update: begin rebuild ([`c158809`](https://github.com/esoto76/transcript-generator/commit/c158809f451423585ec6bba58a4d990455967b75))
