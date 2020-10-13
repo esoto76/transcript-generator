@@ -2,14 +2,40 @@
   "name": "@nhhsa/transcript-generator",
   "version": "3.0.0-beta.2",
   "private": true,
+  "description": "NHHSA transcript-generator or tg",
+  "author": {
+    "name": "Eric Sotomayor",
+    "email": "elpasocolorartist@gmail.com"
+  },
   "scripts": {
-    "eslink": "npm link @es/changelogger",
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
     "clog": "auto-changelog",
+    "eslink": "npm link @es/changelogger",
     "postinstall": "npm run eslink"
   },
-  "devDependencies": {
-    "auto-changelog": "^2.2.1"
+  "main": "index.js",
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "vue": "^2.6.11",
+    "vue-class-component": "^7.2.3",
+    "vue-property-decorator": "^8.4.2",
+    "vue-router": "^3.2.0",
+    "vuex": "^3.4.0"
   },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-plugin-typescript": "~4.5.0",
+    "@vue/cli-plugin-vuex": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "auto-changelog": "^2.2.1",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^8.0.2",
+    "typescript": "~3.9.3",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "_id": "@nhhsa/transcript-generator@3.0.0-beta.2",
   "auto-changelog": {
     "backfillLimit": false,
     "commitLimit": false,
@@ -25,22 +51,20 @@
     "template": "node_modules/@es/changelogger/templates/changelog-template.hbs",
     "unreleased": true
   },
-  "description": "NHHSA transcript-generator or tg",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/esoto76/transcript-generator.git"
+  "bugs": {
+    "url": "https://github.com/esoto76/transcript-generator/issues"
   },
+  "homepage": "https://github.com/esoto76/transcript-generator#readme",
   "keywords": [
     "nhhsa-transcript-generator",
     "transcript-generator",
     "nhhsa-tg",
     "tg"
   ],
-  "author": "Eric Sotomayor <elpasocolorartist@gmail.com>",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/esoto76/transcript-generator/issues"
-  },
-  "homepage": "https://github.com/esoto76/transcript-generator#readme"
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/esoto76/transcript-generator.git"
+  }
 }
