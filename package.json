@@ -57,7 +57,7 @@
     "last 2 versions",
     "not dead"
   ],
-  "description": "## Project setup ``` npm install ```",
+  "description": "NHHSA transcript-generator or tg",
   "main": "index.js",
   "repository": {
     "type": "git",
