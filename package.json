@@ -5,23 +5,10 @@
   "scripts": {
     "eslink": "npm link @es/changelogger",
     "clog": "auto-changelog",
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
-  },
-  "dependencies": {
-    "core-js": "^3.6.5",
-    "vue": "^2.6.12"
+    "postinstall": "npm run eslink"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "~4.5.7",
-    "@vue/cli-plugin-eslint": "~4.5.7",
-    "@vue/cli-service": "~4.5.7",
-    "auto-changelog": "^2.2.1",
-    "babel-eslint": "^10.1.0",
-    "eslint": "^7.11.0",
-    "eslint-plugin-vue": "^7.0.1",
-    "vue-template-compiler": "^2.6.12"
+    "auto-changelog": "^2.2.1"
   },
   "auto-changelog": {
     "backfillLimit": false,
@@ -38,25 +25,6 @@
     "template": "node_modules/@es/changelogger/templates/changelog-template.hbs",
     "unreleased": true
   },
-  "eslintConfig": {
-    "root": true,
-    "env": {
-      "node": true
-    },
-    "extends": [
-      "plugin:vue/essential",
-      "eslint:recommended"
-    ],
-    "parserOptions": {
-      "parser": "babel-eslint"
-    },
-    "rules": {}
-  },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "not dead"
-  ],
   "description": "NHHSA transcript-generator or tg",
   "main": "index.js",
   "repository": {
